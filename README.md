@@ -5,11 +5,11 @@ Steps to make it work:
 - Configure Go and set the PATH to have the GOPATH bin. [Tutorial](https://nats.io/documentation/tutorials/go-install/)
 
 - Install hclfmt
-`go get github.com/fatih/hclfmt`
+`go get github.com/hashicorp/hcl2/cmd/hclfmt`
 
 - Install and setup `hclmft.el`
 
-Right now the library are not on MELPA, so you can do something like this:
+Right now the library is not on MELPA, so you can do something like this:
 
 - Clone this repository where you want
 
